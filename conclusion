@@ -1,0 +1,32 @@
+Invoice Data Analysis
+
+1.Data Overview :
+The dataset contains 100 entries with 8 columns including shipment details like AWB code, order ID, charged weight, pincodes, zone, shipment type, and billing amount.
+All fields are complete (no missing values).
+
+
+2.Billing Amount Variation :
+Billing amounts range from ₹33 to ₹403.8, showing a wide variation based on weight, distance, and shipment type.
+Shipments with "Forward and RTO charges" generally have higher billing due to return logistics.
+
+
+3.Zone Distribution :
+Zone d accounts for the majority of shipments.
+Zones b and e also appear but less frequently.
+
+
+4.Average Billing by Zone :
+Zone e has the highest average billing amount, likely due to long-distance delivery or added services.
+Zone b shows lower average costs compared to other zones.
+
+
+5.Customer Insights :
+No customer-specific data available beyond pincode, limiting detailed customer behavior analysis.
+Adding customer demographics in future datasets could enhance insights.
+
+
+6.Future Recommendations :
+Implement RFM (Recency-Frequency-Monetary) analysis if order history is available.
+Use machine learning models to predict shipping costs based on weight, zone, and shipment type.
+Introduce visual dashboards for real-time tracking of billing trends and shipment performance.
+
